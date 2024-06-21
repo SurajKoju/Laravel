@@ -1,9 +1,8 @@
-<x-header>  
-    About
+<x-layout>
 
-    <x-slot name="message">
-        Important Message
-    </x-slot>
-</x-header>
+    <x-slot:heading>
+        About Page
+    </x-slot:heading>
 
-<x-footer></x-footer>
+    <p>This is About Page</p>
+</x-layout>

@@ -1,9 +1,8 @@
-<x-header class="contact_header">
-    Contact
-    <x-slot name="message">
-        Important Message
-    </x-slot>
+<x-layout>
 
-</x-header>
+    <x-slot:heading>
+        Contact Page
+    </x-slot:heading>
 
-<x-footer></x-footer>
+    <p>This is COntact Page</p>
+</x-layout>
